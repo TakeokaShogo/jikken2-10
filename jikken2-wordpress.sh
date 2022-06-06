@@ -22,3 +22,11 @@ sudo wget https://ja.wordpress.org/latest-ja.tar.gz
 sudo unar latest-ja.tar.gz
 sudo chown -R www-data:www-data .
 ls -l	#kakuninn
+
+#sudo vim /etc/xdg/openbox/lxde-pi-rc.xml 
+#<keybind key="Print">
+#  <action name="Execute">
+#    <command>scrot</command>
+#  </action>
+#</keybind>
+
